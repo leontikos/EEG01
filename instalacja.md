@@ -5,12 +5,12 @@ Podstawowe pakiety jakie będą Wam potrzebne podczas warsztatów to:
 * `seaborn` - do ładnych wizualizacji
 * `mne` (inaczej mne-python) - pakiet do analizy danych elektrofizjologicznych
 * `mypy` - mój pakiet, który będzie Wam potrzebny do różnych dodatkowych operacji - np. będzie ułatwiał niektóre operacje na danych eeg. Do ściągnięcia tego pakietu bezpośrednio z GitHub'a będziecie potrzebowali oprogramowania `git`, które jest dostępne z konsoli `cmder`, którą zainstalujecie.
-
+  
 :exclamation: Jako, że instalacja nie jest trywialna i możecie mieć z nią problemy - otworzyłem na naszej platformie [specjalny wątek](https://github.com/mmagnuski/EEG01/issues/2), w ramach którego będę pomagał Wam przezwyciężyć trudności instalacyjne. Jeżeli coś Wam nie działa - śmiało piszcie!
 
 ## Anaconda
-Python oraz jego standardowa biblioteka, którą mamy na starcie (np. moduł `os` czy `glob`), oferują podstawową funkcjonalność. Do analizy danych potrzebujemy przeróżnych dodatkowych pakietów. Polecana dystrybucja pythona, z której będziemy korzystać na warsztatach to [Anaconda](https://www.continuum.io/downloads). Anaconda zawiera wiele standardowych pakietów używanych do analizy i wizualizacji danych takich jak `numpy`, `matplotlib`, `scipy`, `pandas` czy `statsmodels`. Ściągamy instalator dla **pythona 3.6**.
-:warning: Na zdjęciu poniżej zaznaczony jest guzik do ściągnięcia anacondy z pythonem 3.5 dla 64-bitowego windowsa, jeżeli Twój system jest 32-bitowy, wybierz instalator 32-bitowy. Jeżeli nie wiesz jaki masz system [możesz to sprawdzić stosując się do tych instrukcji](http://windows.microsoft.com/pl-pl/windows/32-bit-and-64-bit-windows).:  
+Python oraz jego standardowa biblioteka, którą mamy na starcie (np. moduł `os` czy `glob`), oferują podstawową funkcjonalność. Do analizy danych potrzebujemy przeróżnych dodatkowych pakietów. Polecana dystrybucja pythona, z której będziemy korzystać na warsztatach to [Anaconda](https://www.continuum.io/downloads). Anaconda zawiera wiele standardowych pakietów używanych do analizy i wizualizacji danych takich jak `numpy`, `matplotlib`, `scipy`, `pandas` czy `statsmodels`. Ściągamy instalator dla **pythona 3.6**.  
+:warning: Na zdjęciu poniżej zaznaczony jest guzik do ściągnięcia anacondy z pythonem 3.5 (to starszy screenshot - faktycznie ściągacie anacondę z pythonem 3.6) dla 64-bitowego windowsa, jeżeli Twój system jest 32-bitowy, wybierz instalator 32-bitowy. Jeżeli nie wiesz jaki masz system [możesz to sprawdzić stosując się do tych instrukcji](http://windows.microsoft.com/pl-pl/windows/32-bit-and-64-bit-windows).:  
 <img src="/img/anaconda_install_00.PNG" width="450">  
 
 Otwieramy instalator, wybieramy instalację dla użytkownika ("only me" - nie wymaga uprawnień administratora)  
@@ -63,7 +63,7 @@ fatal: Not a git repository (or any of the parent directories): .git
 Użytkownicy Windowsa prawie na pewno git'a nie mają ale zainstalują go sobie wraz z przyjemniejszą od Windowsowego `wiersza poleceń` konsolą - `cmder`:
 
 ### `cmder`
-Zainstaluj [cmder](http://cmder.net/) i nie wracaj już do mrocznych tuneli `wiersza polecenia` - git'a dostaniesz w prezencie! Po wejściu na [stronę cmder](http://cmder.net/) wybierz pełną instalację:
+Zainstaluj [cmder](http://cmder.net/) i nie wracaj już do mrocznych tuneli `wiersza polecenia` - git'a dostaniesz w prezencie! Po wejściu na [stronę cmder](http://cmder.net/) wybierz pełną instalację:  
 <img src="/img/cmder_install_01.PNG" width="500">  
 Rozpocznie to ściąganie pliku zip - po jego ściągnięciu rozpakuj go sobie do jakiegoś folderu na komputerze. Możesz na przykład utworzyć sobie folder `cmder` w `C:\Program Files` i tam wypakować pliki. Na koniec dla wygody - utwórz sobie skrót do `Cmder.exe` na pulpicie. `cmder` otwierać będziemy właśnie poprzez ten skrót.
 
@@ -125,7 +125,7 @@ a następnie wykonajcie następujące komendy (każda z tych komend może troch�
 from mypy import edu
 edu.test_system()
 ```
-Następnie - jeżeli nie było błędów - zrób screenshot ekranu, najlepiej tak aby objmował całą konsolę, przykład poniżej:
+Następnie - jeżeli nie było błędów - zrób screenshot ekranu, najlepiej tak aby objmował całą konsolę, przykład poniżej:  
 <img src="/img/praca_domowa_przykład.PNG" width="500">  
 
 Screenshot ten zamieść na GitHubie w [tym wątku](https://github.com/mmagnuski/EEG01/issues/1).
