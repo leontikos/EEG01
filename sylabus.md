@@ -3,24 +3,6 @@ Sylabus
 
 Zajęcia z analizy sygnału I oswajają studentów z podstawowymi operacjami wykonywanymi na sygnale EEG. Droga od surowych danych EEG do danych gotowych do analizy jest stosunkowo długa i najeżona różnymi trudnościami. Studenci nauczą się kolejnych kroków przygotowywania danych do analizy, które minimalizują bądź przezwyciężają owe trudności. Omówione zostaną również podstawowe metody analizy przygotowanych danych. Aby przyswoić podstawowe umiejętności analizy sygnału student musi zmierzyć się z projektem końcowym - samodzielnym przeanalizowaniem otrzymanych danych. Zaliczenie projektu następuje drogą pisemną - student dokumentuje kolejne kroki przygotowania i analizy danych, wliczając w to ilustracje kluczowych kroków takich jak - odrzucanie artefaktów, klasyfikacja komponentów oraz policzenie potencjałów wywołanych. Istotna jest zarówno jakość przeprowadzonych analiz, kompletność udokumentowania kroków analizy oraz trafność decyzji podejmowanych podczas przygotowywania danych do analizy.
 
-2. Jako że nie mam 100% pewności czy będę torturował studentów pythonem czy może Brainstormem (ma wersję standalone), najlepiej wywalić:
-
-z Tematu 1:
-* środowisko MATLAB - wprowadzenie
-* eeglab - przyjazne narzędzie do analizy EEG
-
-z Tematu 3:
-* jak zorganizowane są dane w eeglabie
-* komendy tekstowe i automatyzacja
-
-z Tematu 4:
-* komendy tekstowe przydatne do liczenia ERPów
-
-
-3. zmieniłbym natomiast:
-
-
-
 
 1. Wprowadzenie do tematyki zajęć
   * struktura zajęć i wymagania
