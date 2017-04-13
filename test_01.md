@@ -5,7 +5,7 @@ Test
   a) set poepokowane pliki set
   b) fromat *.raw EGI, surowe
   c) format *.fif, surowe
-nie musisz ich znać na pamięć - jeżeli wiesz gdzie w mne są funkcje wczytujące pliki, wystarczy że posłużysz się tabem.
+nie musisz ich znać na pamięć - jeżeli wiesz gdzie w mne są funkcje wczytujące pliki, wystarczy że posłużysz się tabem (podpowiedzi w jupyter notebook'u).
 
 
 2. Przyporządkuj w odpowiedniej kolejności poniższe kroki
