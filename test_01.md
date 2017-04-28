@@ -1,20 +1,21 @@
 Test
 ====
 
-1. Wpisz nazwy funkcji mne do wczytywania następujących formatów plików:  
-  a) set poepokowane pliki set  
-  b) fromat *.raw EGI, surowe  
-  c) format *.fif, surowe  
-nie musisz ich znać na pamięć - jeżeli wiesz gdzie w mne są funkcje wczytujące pliki, wystarczy że posłużysz się tabem (podpowiedzi w jupyter notebook'u).
+1. Sygnał masz w zmiennej `raw`, montaż w zmiennej `lisek`.
+  a) Wpisz komendę która filtruje sygnał górnoprzepustowo - powyżej 0.5 Hz 
+  b) Wpisz komendę która filtruje sygnał dolnoprzepustowo - poniżej 40 Hz
+  c) połącz dwie komendy powyżej w jedną
+  c) Wpisz komendę która dodaje montaż do sygnału
 
 
 2. Przyporządkuj w odpowiedniej kolejności poniższe kroki  
+
 A - epokujemy i zapisujemy w zmiennej `epochs`  
-B - wczytujemy dane i zapisujemy w zmiennej `raw`  
-C - `raw.set_montage(montage)`  
-D - wczytujemy montaż do zmiennej `montage`  
-E - `raw.filter(1, None)`  
-F - wczytujemy informacje o wydarzeniach  
+B - wczytujemy informacje o wydarzeniach
+C - wczytujemy montaż do zmiennej `montage`
+D - wczytujemy dane i zapisujemy w zmiennej `raw`  
+E - `raw.set_montage(montage)`
+F - `raw.filter(1, None)`  
 
 bez stresu - jest więcej niż jedna poprawna kolejność.
 
@@ -25,23 +26,22 @@ bez stresu - jest więcej niż jedna poprawna kolejność.
 ```
 
 
-4. Po co stosujemy ICA?
+4. Mamy poepokowany sygnał w zmiennej `epochs` - co robi nam poniższa komenda, po co to robimy?
+```python
+erp = epochs['face_0'].average()
+```
 ```
 
 ```
 
 
-5. Co robią w notebooku te komendy:
-```
-%matplotlib
-```
-
-```
-%matplotlib inline
-```
-
+5. Co robią (w notebooku) te komendy:
 ```
 cd C:\Dane\super_badanie\eeg
+```
+
+```python
+raw = mne.io.read_raw_fif('super_dane_jejku_jej.fif')
 ```
 
 ```
