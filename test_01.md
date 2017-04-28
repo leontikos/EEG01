@@ -11,10 +11,10 @@ Test
 2. Przyporządkuj w odpowiedniej kolejności poniższe kroki  
 
 A - epokujemy i zapisujemy w zmiennej `epochs`  
-B - wczytujemy informacje o wydarzeniach
-C - wczytujemy montaż do zmiennej `montage`
+B - wczytujemy informacje o wydarzeniach  
+C - wczytujemy montaż do zmiennej `montage`  
 D - wczytujemy dane i zapisujemy w zmiennej `raw`  
-E - `raw.set_montage(montage)`
+E - `raw.set_montage(montage)`  
 F - `raw.filter(1, None)`  
 
 bez stresu - jest więcej niż jedna poprawna kolejność.
@@ -26,16 +26,19 @@ bez stresu - jest więcej niż jedna poprawna kolejność.
 ```
 
 
-4. Mamy poepokowany sygnał w zmiennej `epochs` - co robi nam poniższa komenda, po co to robimy?
+4. Mamy poepokowany sygnał w zmiennej `epochs` - co robi nam poniższa komenda, po co to robimy?  
+
 ```python
 erp = epochs['face_0'].average()
 ```
-```
 
 ```
 
+```
 
-5. Co robią (w notebooku) te komendy:
+
+5. Co robią (w notebooku) te komendy:  
+
 ```
 cd C:\Dane\super_badanie\eeg
 ```
